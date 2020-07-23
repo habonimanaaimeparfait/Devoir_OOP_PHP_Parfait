@@ -22,22 +22,6 @@ public function destruct(){
       #code..   
     }
 }
-//Notion d'heritage classes fille exends la classe mère Automobile
-
-public function __construct($categorie,$plaque,$marque,$couleur){
-
-    $this->categorie=$categorie;
-    $this->plaque=$plaque;
-    $this->marque=$marque;
-    $this->couleur=$couleur;
-}
-
-//declararion d'un destructeur
-public function destruct(){
-  #code..   
-}
-
-}
 
 //Notion d'heritage classes fille exends la classe mère Automobile
 
